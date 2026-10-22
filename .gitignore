@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+account.json
+config.json
+notify.json
+notify_state.json
+提醒日志.log
+临期作业.md
+启动错误.log
+homework_raw*.json
+
+# 打包产物（自己构建，不进仓库）
+发布/
+build/
+dist/
+*.spec
+
+# 打包时的临时构建目录（跑完自动删）
+_build_tmp/
+自检报告.txt
+
+*.log
+_r.txt
+桌面版-本地说明.md
